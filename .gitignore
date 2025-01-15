@@ -1,0 +1,5 @@
+# 忽略原始数据集
+dataset/
+
+# 忽略模型文件
+state_dict/
