@@ -20,29 +20,29 @@ Among them, our project designed two GUI interfaces for data collection and gest
 
 ### Data Collection
 
-![Data Collection](asserts\数据采集.png)  
+![Data Collection](asserts/数据采集.png)  
 First of all, you can click "New Class Name" to add new gesture categories. Then the default collection time of the system is 1.5 seconds. You need to complete the gesture collection within 1.5 seconds and repeat the collection of the same gesture 50 times. When it's done, run utils.py to complete the collection of the key point coordinates of the video gesture, and the system will automatically save the data under the embed/ folder.
 
 ### Gesture Recognition
 
 Finally, it's about the deployment of the trained models. This model used CNN, PointNet, Transformer, and LSTM and obtained three models. Finally, the model results were fused and output to obtain the final gesture classification result. Of course, the relevant gesture classification demonstrations I have uploaded to BiliBili, and you can watch it directly through the link. Finally, there are two choices of gesture recognition models, and you can check this by running the program.
     #### python APP_Redal.py
-![Running GUI](asserts\静态手势.png)
-![Running GUI](asserts\动态手势.png)
+![Running GUI](asserts/静态手势.png)
+![Running GUI](asserts/动态手势.png)
 
 ## 3.Model
 
 The three models implemented in this project all display the relevant network structure in the `.onnx` format. You can also generate the `.onnx` file by running the relevant code under `models/` and visualize the model results through the [Netron app](https://netron.app).
 
-|![CNN_LSTM](asserts\CNN_LSTM.onnx.png) | ![PointNet_LSTM](asserts\PointNet_LSTM.onnx.png) | ![Transformer_LSTM](asserts\Transformer_LSTM.onnx.png) |
+|![CNN_LSTM](asserts/CNN_LSTM.onnx.png) | ![PointNet_LSTM](asserts/PointNet_LSTM.onnx.png) | ![Transformer_LSTM](asserts/Transformer_LSTM.onnx.png) |
 |---------------------------------------|--------------------------------------------------|--------------------------------------------------------|
 
 ## 4.Training & Testing
 
 Next, you can train the network model by running the train.py code file. And the relevant test code is also in the same folder. You can use the plot_confusion_matrix function in the code to draw the confusion matrix and classification score of the test.The following is the display of the confusion matrices of the three model files of this project that I present for your reference and model selection.  
-![Confusion Matrix](asserts\CNN_LSTM_CM.png)  
-![Confusion Matrix](asserts\PointNet_LSTM_CM.png)  
-![Confusion Matrix](asserts\Transformer_LSTM_CM.png)  
+![Confusion Matrix](asserts/CNN_LSTM_CM.png)  
+![Confusion Matrix](asserts/PointNet_LSTM_CM.png)  
+![Confusion Matrix](asserts/Transformer_LSTM_CM.png)  
 
 ## 5.Thanks
 
