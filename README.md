@@ -25,7 +25,7 @@ First of all, you can click "New Class Name" to add new gesture categories. Then
 
 ### Gesture Recognition
 
-Finally, it's about the deployment of the trained models. This model used CNN, PointNet, Transformer, and LSTM and obtained three models. Finally, the model results were fused and output to obtain the final gesture classification result. Of course, the relevant gesture classification demonstrations I have uploaded to BiliBili, and you can watch it directly through the link. Finally, there are two choices of gesture recognition models, and you can check this by running the program.
+Finally, it's about the deployment of the trained models. This model used CNN, PointNet, Transformer, and LSTM and obtained three models. Finally, the model results were fused and output to obtain the final gesture classification result. Of course, the relevant gesture classification demonstrations I have uploaded to BiliBili [related videos](https://b23.tv/aQuwHHO), and you can watch it directly through the link. Finally, there are two choices of gesture recognition models, and you can check this by running the program.
     #### python APP_Redal.py
 ![Running GUI](asserts/静态手势.png)
 ![Running GUI](asserts/动态手势.png)
@@ -34,7 +34,7 @@ Finally, it's about the deployment of the trained models. This model used CNN, P
 
 The three models implemented in this project all display the relevant network structure in the `.onnx` format. You can also generate the `.onnx` file by running the relevant code under `models/` and visualize the model results through the [Netron app](https://netron.app).
 
-|![CNN_LSTM](asserts/CNN_LSTM.onnx.png) | ![PointNet_LSTM](asserts/PointNet_LSTM.onnx.png) | ![Transformer_LSTM](asserts/Transformer_LSTM.onnx.png) |
+|![CNN_LSTM](asserts/CNN_LSTM.png) | ![PointNet_LSTM](asserts/PointNet_LSTM.png) | ![Transformer_LSTM](asserts/Transformer_LSTM.png) |
 |---------------------------------------|--------------------------------------------------|--------------------------------------------------------|
 
 ## 4.Training & Testing
