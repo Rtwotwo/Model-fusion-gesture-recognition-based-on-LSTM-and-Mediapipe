@@ -1,6 +1,10 @@
 # Model-fusion-gesture-recognition-based-on-LSTM-and-Mediapipe
 
-This project extracts feature points based on the Mediapipe open-source model, uses LSTM, CNN, and Vision of Transformer network models for training to obtain a deep learning model, and finally deploys and applies it.
+This project extracts feature points based on the Mediapipe open-source model, uses LSTM, CNN, and Vision of Transformer network models for training to obtain a deep learning model, and finally deploys and applies it.The download link for the relevant model weight files[百度网盘](https://pan.baidu.com/s/1avCHiO_LR4AHeJfhMC2Ntw?pwd=2xjf):
+
+```bash
+https://pan.baidu.com/s/1avCHiO_LR4AHeJfhMC2Ntw?pwd=2xjf  
+Extraction code: 2xjf
 
 ## 1.Environment
 
