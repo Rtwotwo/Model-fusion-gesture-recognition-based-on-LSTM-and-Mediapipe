@@ -5,6 +5,7 @@ This project extracts feature points based on the Mediapipe open-source model, u
 ```bash
 https://pan.baidu.com/s/1avCHiO_LR4AHeJfhMC2Ntw?pwd=2xjf  
 Extraction code: 2xjf
+```
 
 ## 1.Environment
 
