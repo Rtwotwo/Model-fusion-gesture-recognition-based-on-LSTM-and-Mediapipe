@@ -30,8 +30,13 @@ First of all, you can click "New Class Name" to add new gesture categories. Then
 
 ### Gesture Recognition
 
-Finally, it's about the deployment of the trained models. This model used CNN, PointNet, Transformer, and LSTM and obtained three models. Finally, the model results were fused and output to obtain the final gesture classification result. Of course, the relevant gesture classification demonstrations I have uploaded to BiliBili [related videos](https://b23.tv/aQuwHHO), and you can watch it directly through the link. Finally, there are two choices of gesture recognition models, and you can check this by running the program.
-    #### python APP_Redal.py
+Next, it's about the deployment of the trained models. This model used CNN, PointNet, Transformer, and LSTM and obtained three models. Finally, the model results were fused and output to obtain the final gesture classification result. Of course, the relevant gesture classification demonstrations I have uploaded to BiliBili [related videos](https://b23.tv/aQuwHHO), and you can watch it directly through the link. Finally, there are two choices of gesture recognition models, and you can check this by running the program.
+
+```bash
+# You can run this code to get the GUI interface
+python APP_Redal.py
+```
+
 ![Running GUI](asserts/静态手势.png)
 ![Running GUI](asserts/动态手势.png)
 
